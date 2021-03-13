@@ -1,0 +1,29 @@
+{
+  "name": "user-auth",
+  "version": "1.0.0",
+  "description": "User authentication system using Node+Mongo+Express+JWT",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongo",
+    "mongoose",
+    "auth",
+    "jwt",
+    "bcrypt"
+  ],
+  "author": "Yagnesh Dhanani",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.0"
+  }
+}
